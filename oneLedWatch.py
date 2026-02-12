@@ -90,7 +90,7 @@ timer.init(period=1000, mode=Timer.PERIODIC, callback=tick)
 async def display_time(h, m):
     """Shows time with LED pulses."""
     
-    # 1) Hour: h pulses12000ms
+    # 1) Hour: h pulses 1000ms
     if h > 0:
         await flash_group(h, 1000, 500)
         await asyncio.sleep(1)      # pause 1sec
@@ -156,6 +156,7 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
 
 
