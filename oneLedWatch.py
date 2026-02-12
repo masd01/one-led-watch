@@ -25,12 +25,12 @@ LED_PIN = 25          # GP25 – internal LED
 BUTTON_PIN = 2       # GP02 – Button (with pull-up)
 
 # ------------------------------------------------------------
-# Watch State (12h)
+# Watch State (12h) set starting time
 # ------------------------------------------------------------
-hour = 5
+hour = 5         
 minute = 43
 second = 0
-ampm = 0            # 0=AM, 1=PM – 
+ampm = 0            # 0=AM, 1=PM 
 
 # ------------------------------------------------------------
 # Initialization
@@ -156,6 +156,7 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
 
 
