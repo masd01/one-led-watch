@@ -2,9 +2,9 @@
 One LED Watch for Raspberry Pi Pico (RP2040)
 MicroPython version
 
-- Hours 1–12 → 12 pulse 2sec
-- Quarters → 0–3 pulse 1sec
-- Minutes mod 15 → 0–14 pulse 0.5sec
+- Hours 1–12 → 12 pulse 1sec
+- Quarters → 0–3 pulse 0.5sec
+- Minutes mod 15 → 0–14 pulse 0.25sec
 Pause 1sec in between.
 
 Button: push to see time. Don;t forget to count!
@@ -156,3 +156,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
