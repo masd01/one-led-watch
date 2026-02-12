@@ -7,7 +7,7 @@ MicroPython version
 - Minutes mod 15 → 0–14 pulse 0.25sec
 Pause 1sec in between.
 
-Button: push to see time. Don;t forget to count!
+Button: push to see time. Don't forget to count!
 Pico sleeps between secs (energy saver).
 
 github.com/masd01
@@ -156,4 +156,5 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
