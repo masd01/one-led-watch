@@ -22,7 +22,7 @@ from machine import Pin, Timer, RTC
 # Settings
 # ------------------------------------------------------------
 LED_PIN = 25          # GP25 – internal LED
-BUTTON_PIN = 2       # GP02 – Button (with pull-up)
+BUTTON_PIN = 3       # GP3 – Button (with pull-up)
 
 # ------------------------------------------------------------
 # Watch State (12h) set starting time
@@ -156,3 +156,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
